@@ -53,7 +53,7 @@
 ### 🐍 Python
 #### 知识点
 
-####作业
+#### 作业
 - [python基础1](/python/homework1.md)
 
 ### 🤖 人工智能
