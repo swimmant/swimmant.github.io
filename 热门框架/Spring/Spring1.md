@@ -23,11 +23,10 @@
   - ==**简化开发**==，降低企业级开发的复杂性
   - **==框架整合==**，高效整合其他技术，提高企业级应用开发与运行效率
 
-![image-20210729171139088](assets/image-20210729171139088.png)
+![image-20210729171139088](image1/image-20210729171139088.png)
 
 #### 1.2 学什么
 
-- 简化开发
   - ==IOC(反转控制)==
   - ==AOP(面向切面编程)==
     - ==事务处理==
@@ -46,7 +45,7 @@
 - 学习基础操作，思考操作与思想间的联系
 - 学习案例，熟练应用操作的同时，体会思想
 
-![image-20210729171346022](assets/image-20210729171346022.png)
+![image-20210729171346022](image1/image-20210729171346022.png)
 
 
 
@@ -61,11 +60,11 @@
 - 官网：https://spring.io
 - Spring发展到今天已经形成了一种开发的生态圈，Spring提供了若干个项目，每个项目用于完成特定的功能。
 
-![image-20210729171850181](assets/image-20210729171850181.png)
+![image-20210729171850181](image1/image-20210729171850181.png)
 
 #### 2.2 Spring发展史
 
-![image-20210729171926576](assets/image-20210729171926576.png)
+![image-20210729171926576](image1/image-20210729171926576.png)
 
 
 
@@ -79,13 +78,13 @@
 
 - Spring Framework是Spring生态圈中最基础的项目，是其他项目的根基
 
-![image-20210729172153796](assets/image-20210729172153796.png)
+![image-20210729172153796](image1/image-20210729172153796.png)
 
-![image-20210729172352627](assets/image-20210729172352627.png)
+![image-20210729172352627](image1/image-20210729172352627.png)
 
 #### 3.2 Spring Framework课程学习路线
 
-![image-20210729172513669](assets/image-20210729172513669.png)
+![image-20210729172513669](image1/image-20210729172513669.png)
 
 
 
@@ -99,7 +98,7 @@
 
 #### 4.1 目前我们代码存在的问题
 
-![image-20210729173516149](assets/image-20210729173516149.png)
+![image-20210729173516149](image1/image-20210729173516149.png)
 
 - 代码书写现状
   - 耦合度偏高
@@ -121,7 +120,7 @@
   
   - 在容器中建立bean与bean之间的依赖关系的整个过程，称为依赖注入。
 
-![image-20210729174148134](assets/image-20210729174148134.png)
+![image-20210729174148134](image1/image-20210729174148134.png)
 
 - 目标：充分解耦
   - 使用IoC容器管理bean（IOC)
@@ -242,7 +241,7 @@ public class App {
 
 #### 1.4 运行结果
 
-![image-20210729184337603](assets/image-20210729184337603.png)
+![image-20210729184337603](image1/image-20210729184337603.png)
 
 
 
@@ -326,7 +325,7 @@ public class BookServiceImpl implements BookService {
 
 #### 2.4 图解演示
 
-![image-20210729183104748](assets/image-20210729183104748.png)
+![image-20210729183104748](image1/image-20210729183104748.png)
 
 
 
@@ -342,7 +341,7 @@ public class BookServiceImpl implements BookService {
 
 #### 配置说明
 
-![image-20210729183500978](assets/image-20210729183500978.png)
+![image-20210729183500978](image1/image-20210729183500978.png)
 
 #### 代码演示
 
@@ -358,15 +357,15 @@ public class BookServiceImpl implements BookService {
 
 #### 配置说明
 
-![image-20210729183558051](assets/image-20210729183558051.png)
+![image-20210729183558051](image1/image-20210729183558051.png)
 
 #### 代码演示
 
-![image-20210729191924626](assets/image-20210729191924626.png)
+![image-20210729191924626](image1/image-20210729191924626.png)
 
 #### 打印结果
 
-![image-20210729191954870](assets/image-20210729191954870.png)
+![image-20210729191954870](image1/image-20210729191954870.png)
 
 
 
@@ -374,17 +373,17 @@ public class BookServiceImpl implements BookService {
 
 #### 配置说明
 
-![image-20210729183628138](assets/image-20210729183628138.png)
+![image-20210729183628138](image1/image-20210729183628138.png)
 
 > 扩展：scope的取值不仅仅只有singleton和prototype，还有request、session、application、 websocket ，表示创建出的对象放置在web容器(tomcat)对应的位置。比如：request表示保存到request域中。
 
 #### 代码演示
 
-![image-20210729192420048](assets/image-20210729192420048.png)
+![image-20210729192420048](image1/image-20210729192420048.png)
 
 #### 打印结果
 
-![image-20210729192730871](assets/image-20210729192730871.png)
+![image-20210729192730871](image1/image-20210729192730871.png)
 
 > 最后给大家说明一下：在我们的实际开发当中，绝大部分的Bean是单例的，也就是说绝大部分Bean不需要配置scope属性。
 
@@ -451,7 +450,7 @@ public class AppForInstanceBook {
 
 - 运行结果
 
-![image-20210729194137151](assets/image-20210729194137151.png)
+![image-20210729194137151](image1/image-20210729194137151.png)
 
 ==注意：无参构造方法如果不存在，将抛出异常`BeanCreationException`==
 
@@ -489,7 +488,7 @@ public class OrderDaoFactory {
 <bean id="orderDao" class="com.itheima.factory.OrderDaoFactory" factory-method="getOrderDao"/>
 ```
 
-![image-20210729195248948](assets/image-20210729195248948.png)
+![image-20210729195248948](image1/image-20210729195248948.png)
 
 - AppForInstanceOrder测试类
 
@@ -507,7 +506,7 @@ public class AppForInstanceOrder {
 
 - 运行结果
 
-![image-20210729195009198](assets/image-20210729195009198.png)
+![image-20210729195009198](image1/image-20210729195009198.png)
 
 #### 2.3 实例工厂方式
 
@@ -544,7 +543,7 @@ public class UserDaoFactory {
 <bean id="userDao" factory-method="getUserDao" factory-bean="userFactory"/>
 ```
 
-![image-20210729200203249](assets/image-20210729200203249.png)
+![image-20210729200203249](image1/image-20210729200203249.png)
 
 - AppForInstanceUser测试类
 
@@ -565,7 +564,7 @@ public class AppForInstanceUser {
 
 - 运行结果
 
-![image-20210729200240820](assets/image-20210729200240820.png)
+![image-20210729200240820](image1/image-20210729200240820.png)
 
 #### 2.4 实现FactoryBean\<T>方式【扩展,了解】
 
@@ -743,11 +742,11 @@ setter方式注入使用什么子标签？
 
 ##### 引用类型
 
-![image-20210729203626540](assets/image-20210729203626540.png)
+![image-20210729203626540](image1/image-20210729203626540.png)
 
 ##### 简单类型
 
-![image-20210729203728173](assets/image-20210729203728173.png)
+![image-20210729203728173](image1/image-20210729203728173.png)
 
 #### 1.3 构造方式注入
 
@@ -757,15 +756,15 @@ setter方式注入使用什么子标签？
 
 ##### 引用类型
 
-![image-20210729203859855](assets/image-20210729203859855.png)
+![image-20210729203859855](image1/image-20210729203859855.png)
 
 ##### 简单类型
 
-![image-20210729204006542](assets/image-20210729204006542.png)
+![image-20210729204006542](image1/image-20210729204006542.png)
 
 ##### 参数适配【了解】
 
-![image-20210729204117697](assets/image-20210729204117697.png)
+![image-20210729204117697](image1/image-20210729204117697.png)
 
 #### 1.4 依赖注入方式选择
 
@@ -887,30 +886,30 @@ maven仓库：https://mvnrepository.com/search?q=mysql
 
 配置第三方库bean
 
-![image-20220825222906554](.\assets\image-2022年8月25日.png)
+![image-20220825222906554](.\image1\image-2022年8月25日.png)
 
-![image-20220825223149886](.\assets\image-20220825223149886.png)
+![image-20220825223149886](.\image1\image-20220825223149886.png)
 
-![image-20220825223222718](.\assets\image-20220825223222718.png)
+![image-20220825223222718](.\image1\image-20220825223222718.png)
 
 ### 5 加载properties配置信息
 
 1、开启context命名空间
 
-![image-20220825223546806](.\assets\image-20220825223546806.png)
+![image-20220825223546806](.\image1\image-20220825223546806.png)
 
 2、使用context命名空间加载properties文件
 
-![image-20220825223804131](.\assets\image-20220825223804131.png)
+![image-20220825223804131](.\image1\image-20220825223804131.png)
 
 注意点：
 
 1、不加载系统属性【当properties文件变量名和系统变量名重复时问题】
 
-![image-20220825224230793](.\assets\image-20220825224230793.png)
+![image-20220825224230793](.\image1\image-20220825224230793.png)
 
 总结：
 
-![image-20220825223946542](.\assets\image-20220825223946542.png)
+![image-20220825223946542](.\image1\image-20220825223946542.png)
 
-![image-20220825224430283](.\assets\image-20220825224430283.png)
+![image-20220825224430283](.\image1\image-20220825224430283.png)
