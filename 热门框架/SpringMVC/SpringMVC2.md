@@ -40,7 +40,7 @@
 
 ##### 1.2.1 创建工程，添加依赖和插件
 
-<img src="images2/image-20210805164125741.png" alt="image-20210805164125741" style="zoom:25%;" />
+![image-20210805164125741](images2/image-20210805164125741.png)
 
 ```xml
 <dependencies>
