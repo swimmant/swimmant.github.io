@@ -41,14 +41,22 @@
 - [SpringBoot Data](Java/springboot-data.md) 
 - [SpringBoot NQ](Java/springboot-mq.md) 
 
-#### Spring复习
-- [Spring1](热门框架/Spring/Spring1.md)
-- [Spring2](热门框架/Spring/Spring2.md)
-- [Spring3](热门框架/Spring/Spring3.md)
+#### Spring系列笔记
+- [Spring1](Spring系列/Spring/Spring1.md)
+- [Spring2](Spring系列/Spring/Spring2.md)
+- [Spring3](Spring系列/Spring/Spring3.md)
+- [SpringMVC1](Spring系列/SpringMVC/SpringMVC1.md)
+- [SpringMVC2](Spring系列/SpringMVC/SpringMVC2.md)
+- [SpringBoot笔记](Spring系列/SpringBoot/SpringBoot笔记.md)
+- [SpringCloud01](Spring系列/SpringCloud/SpringCloud01.md)
+- [SpringCloud02](Spring系列/SpringCloud/SpringCloud02.md)
+- [RabbitMQ](Spring系列/RabbitMQ/RabbitMQ.md)
+- [Docker](Spring系列/Docker/Docker.md)
 
-#### SpringMVC复习
-- [SpringMVC1](热门框架/SpringMVC/SpringMVC1.md)
-- [SpringMVC2](热门框架/SpringMVC/SpringMVC2.md)
+- [MyBatisPlus笔记](Spring系列/MyBatisPlus/MyBatisPlus笔记.md)
+- [Redis基础](Spring系列/Redis/Redis基础.md)
+- [Maven](Spring系列/Maven/Maven进阶笔记.md)
+
 
 ### 🎨 面向对象
 
@@ -57,9 +65,13 @@
 
 
 ### 🔧 常用工具
-
-- [Git](git)
+- [Git](常用工具/git)
 - [正则表达式](正则表达式)
+- [Nacos安装指南](常用工具/Nacos安装指南/Nacos安装指南.md)
+- [Nacos集群搭建](常用工具/Nacos集群搭建/nacos集群搭建.md)
+- [Centos7安装Docker](常用工具/docker安装指南/Centos7安装Docker.md)
+- [RabbitMQ部署指南](常用工具/RabbitMQ部署指南/RabbitMQ部署指南.md)
+
 
 ### 📺  系统架构
 
