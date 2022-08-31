@@ -86,7 +86,7 @@
 
 其中在Java领域最引人注目的就是SpringCloud提供的方案了。
 
-![image-20220829131626263](.\assets\image-20220829131626263.png)
+![image-20220829131626263](.\images1\image-20220829131626263.png)
 
 ## 1.4.SpringCloud
 
