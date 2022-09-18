@@ -69,6 +69,7 @@
 ### 🔧 常用工具
 - [Git](常用工具/git)
 - [正则表达式](正则表达式)
+- [MySql安装指南](常用工具/MySql安装指南/MySQL安装文档.md)
 - [Nacos安装指南](常用工具/Nacos安装指南/Nacos安装指南.md)
 - [Nacos集群搭建](常用工具/Nacos集群搭建/nacos集群搭建.md)
 - [Centos7安装Docker](常用工具/docker安装指南/Centos7安装Docker.md)
